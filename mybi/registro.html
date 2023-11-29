@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/estilo2.css">
+</head>
+
+<body class="registro">
+	<section class="h-100">
+		<div class="container h-100">
+			<div class="row justify-content-md-center h-100">
+				<div class="tarjeta-envoltura">
+					<div class="marca">
+					</div>
+					<div class="tarjeta gruesa">
+						<div class="cuerpo-tarjeta">
+							<h4 class="titulo-tarjeta">Registro</h4>
+								<form action="php/agregar.php" method="post">
+									<div class="form-group">
+										<label for="nombre">Nombre</label>
+										<input id="name" type="text" class="form-control" name="nombre" required autofocus>
+									</div>
+
+									<div class="form-group">
+										<label for="coreo">Dirección de Correo Electrónico</label>
+										<input id="email" type="email" class="form-control" name="correo" required>
+									</div>
+
+									<div class="form-group">
+										<label for="contrasena">Contraseña</label>
+										<input id="password" type="password" class="form-control" name="contrasena" required data-eye>
+									</div>
+
+									<div class="form-group">
+										<div class="casilla-personalizada control-personalizado">
+											<label for="agree" class="control-personalizado-etiqueta">Estoy de acuerdo con los <a href="termi-condi.html">Términos y Condiciones</a></label>
+											<div class="comentario-invalido">Debes estar de acuerdo con nuestros Términos y Condiciones</div>
+										</div>
+									</div>
+
+									<div class="form-group m-0">
+										<button type="submit" class="btn btn-primary btn-block">Registrar</button>
+									</div>
+
+									<div class="mt-4 text-center">
+										¿Ya tienes una cuenta? <a href="login.html">Inicia Sesión</a>
+									</div>
+								</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

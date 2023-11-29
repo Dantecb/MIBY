@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizar Transferencia</title>
+    <link rel="stylesheet" href="css/estilo5.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Realizar Transferencia</h2>
+    <form action="php/tranferencias.php" method="post" class="transfer-form">
+
+        <div class="card">
+            <label for="id">ID Usuario Origen:</label>
+            <input type="text" name="id" required>
+        </div>
+
+        <div class="card">
+            <label for="id_usuario">ID Usuario Destino:</label>
+            <input type="text" name="id_usuario" required>
+        </div>
+
+        <div class="card">
+            <label for="tipo">Tipo:</label>
+            <input type="text" name="tipo" required>
+        </div>
+
+        <div class="card">
+            <label for="monto">Monto:</label>
+            <div>
+                <span>&#36</span>
+                <input type="number" step="0.00 " min="0.01" name="monto" required>
+            </div>
+        </div>
+
+        <div class="card">
+            <label for="fecha">Fecha de Tx:</label>
+            <input type="date" name="fecha" required>
+        </div>
+
+        <input type="submit" value="Realizar Transferencia" class="submit-button">
+    </form>
+</div>
+
+</body>
+</html>

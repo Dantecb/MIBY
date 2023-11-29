@@ -1,0 +1,94 @@
+/* estilos.css */
+
+body {
+    background-color: #b2b4a8;
+    font-family: 'Arial', sans-serif;
+}
+
+.registro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.tarjeta-envoltura {
+    width: 350px;
+    background-color: #d2d4c7;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 20px 20px rgb(17, 6, 6)
+}
+
+.marca {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+}
+
+.tarjeta {
+    padding: 10px;
+}
+
+.titulo-tarjeta {
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 1px;
+    color: #000000;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(24, 97, 102);
+    border-radius: 50px;
+}
+
+.btn-primary {
+    background-color: #267367;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.btn-primary:hover {
+    background-color: #1e574f;
+}
+
+.mt-4 {
+    margin-top: 16px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    color: rgb(9, 99, 105);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.comentario-invalido {
+    color: #000000;
+    font-size: 14px;
+    margin-top: 5px;
+}

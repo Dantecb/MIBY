@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350vh;
+    background-color: #182528;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+}
+
+.card {
+    background-color: #b2b4a8;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+}
+
+strong {
+    color: #182528; 
+}
+
+button {
+    background-color: #267367; 
+    color: white; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1e574f;
+
+}
